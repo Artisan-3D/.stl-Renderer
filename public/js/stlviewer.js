@@ -5,7 +5,7 @@ import {STLLoader} from "https://unpkg.com/three@0.143.0/examples/jsm/loaders/ST
 export function render(modelBinary){
 
     //https://codepen.io/leonnicklas/pen/jOyqXoN
-    
+
     var scene = new THREE.Scene();
     var camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
     camera.position.setScalar(0.5);
@@ -17,7 +17,7 @@ export function render(modelBinary){
     
     var loader = new STLLoader();
     
-    var geometry = loader.parse(modelBinary); // change "testAscii" to "testBinary" and it will not work.
+    var geometry = loader.parse(modelBinary); 
     console.log(geometry);
     
     var material = new THREE.MeshNormalMaterial({side: THREE.DoubleSide});
