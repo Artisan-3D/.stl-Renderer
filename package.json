@@ -1,0 +1,15 @@
+{
+  "name": "stl-renderer",
+  "version": "1.0.0",
+  "description": "STL Renderer Prototype",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Carvellas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "three": "^0.143.0"
+  }
+}
